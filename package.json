@@ -1,0 +1,35 @@
+{
+	"name": "nuxt-app",
+	"private": true,
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev --port 8666",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare"
+	},
+	"devDependencies": {
+		"@nuxtjs/i18n": "^8.0.0-beta.12",
+		"@pinia/nuxt": "^0.4.9",
+		"@types/node": "^18",
+		"@types/tailwindcss": "^3.1.0",
+		"@types/video.js": "^7.3.51",
+		"@videojs-player/vue": "^1.0.0",
+		"@vueuse/core": "^10.1.0",
+		"@vueuse/nuxt": "^10.1.0",
+		"nuxt": "^3.4.3",
+		"nuxt-lodash": "^2.4.1",
+		"sass": "^1.62.0",
+		"tailwindcss": "^3.3.1",
+		"vite-plugin-svg-icons": "^2.0.1"
+	},
+	"dependencies": {
+		"cross-env": "^7.0.3",
+		"h3": "^1.6.4",
+		"nuxt-swiper": "^1.1.0",
+		"pinia": "^2.0.35",
+		"pinia-plugin-persist": "^1.0.0",
+		"video.js": "^8.0.4",
+		"vue-i18n": "^9.3.0-beta.19"
+	}
+}

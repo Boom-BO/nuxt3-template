@@ -1,0 +1,21 @@
+@mixin title($font-size: 32px, $font-weight: 600) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  color: $themeColor;
+}
+
+@mixin showLine($linecount: 1) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: $linecount;
+  -webkit-box-orient: vertical;
+}
+
+@mixin tagfunc() {
+  display: inline-flex;
+  padding: 5px 10px;
+  font-size: $normalFontSize;
+  border-radius: 3px;
+  margin-right: 5px;
+}
